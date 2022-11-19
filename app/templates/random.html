@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Random Number</title>
+    </head>
+    <body>
+        <form method="post" autocomplete="off">
+            <label>Enter the Integer: </label>
+            <input type="text" name="integer" value="{{ integer }}"/>
+            <input type="submit" value="Submit">
+        </form>
+        <div class="random_number">
+            <!-- {{ integer }} -->
+            {{ random_number }}
+        </div>
+    </body>
+</html>
